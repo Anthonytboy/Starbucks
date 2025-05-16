@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="./Starbucks Coffee Company/download.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/output.css">
+  <link rel="stylesheet" href="src/style.css">
+  <title>Starbucks Rewards</title>
+</head>
+<body>
+  
+ <!-- NAV-Bar -->
+<div class="container-fluid overflow-x-clip">
+
+ <nav class="relative container-fluid shadow-lg mx-auto p-3">
+  <!-- Flex Container -->
+  <div class="flex items-center mx-4 justify-between">
+   <!-- Logo -->
+       <div class="pt-2 mt-2 md:flex">
+           <img src="/Starbucks Coffee Company/download.svg" width="60"  alt="Logo">
+            <!-- Menu Items -->
+           <div id="tag" class=" hidden space-x-4 px-5 mt-5 md:block">
+               <a class="font-bold hover:text-green-700" href="Menu.html">MENU</a>
+               <a class="font-bold hover:text-green-700" href="reward.html">REWARDS</a>
+               <a class="font-bold hover:text-green-700" href="#">GIFT CARDS</a>
+            </div>
+          </div>
+      
+    <div id="tag" class="hidden space-x-4 md:flex justify-center place-content-center">
+     <div class="font-bold flex items-center justify-center space-x-2">
+       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="black" class="size-6 inline mb-0">
+         <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+         <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+       </svg>
+       <a class=" hover:text-green-700" href="#">
+       Find a store</a>
+     </div>
+      <div class="hidden md:flex items-center justify-center space-x-4">
+       <a href="sign-up.html" class= "hidden px-4 p-1 font-bold  border border-gray-600 text-black bg-white rounded-full baseline hover:bg-gray-300  md:block">Sign in</a>
+       <a href="Create.html" class= "hidden px-4 p-1 font-bold text-blue-50 border-gray-600 text-wite bg-gray-950  rounded-full baseline hover:bg-gray-700  md:block">Join now</a>  
+       </div>          
+    </div>
+           <!-- Hamburger Icon -->
+  <button id="menu-btn" class="items-end block hamburger md:hidden focus:outline-none">
+   <span class="hamburger-top"></span>
+   <span class="hamburger-middle"></span>
+   <span class="hamburger-bottom"></span>
+   </button>
+  </div>
+
+<!-- Mobile menu -->
+<div class="md:hidden ">
+ <div id="menu" class="absolute flex-col items-start hidden self-end  py-15 mt-10 space-y-6  bg-white sm:w-lg top-13 right-0 drop-shadow-lg">
+   <div class="md:hidden flex flex-col mx-4">
+     <a class="mt-2  hover:text-green-700"  href="Menu.html">Menu</a>
+     <a class="mt-2  hover:text-green-700"  href="reward.html">Rewards</a>
+     <a class="mt-2  hover:text-green-700"  href="#">Gift</a>
+   </div>
+   <hr class=" border-b-2 border-gray-600">
+   <div class="md:hidden flex flex-col mx-4 ">
+     <div>
+       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="black" class="size-6 inline">
+         <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+         <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+       </svg>
+       <a class="mt-2  hover:text-green-700" href="#">
+       Find a store</a>
+     </div>
+    
+     <a href="sign-up.html" class= "mt-3 px-4 p-1 border border-gray-600 text-black bg-white rounded-full baseline hover:bg-gray-300  md:block">Sign in</a>
+     <a href="Create.html" class= " mt-3 px-4 p-1 text-blue-50 border-gray-600 text-wite bg-gray-950  rounded-full baseline hover:bg-gray-700  md:block">Join now</a>            
+   </div>
+  
+  
+   
+ </div>
+</div>
+</nav>
+
+<!-- Main Content -->
+
+  <div class="sticky top-0 bg-green-900">
+    <div class="flex flex-col justify-between">
+    <div class="text-white text-2xl font-bold uppercase ml-30">Starbuck's Rewards</div>
+   
+
+    </div>
+  
+
+  </div>
+
+
+  <!-- HERO section -->
+ <section id="hero-1">
+    <!-- Flex container -->
+     <div class="container-fluid flex flex-col md:flex-row items-center mx-auto mt-10 space-y-0 md:space-y-0 p-0 bg-gray-200">
+      <!-- left item --> 
+      <div class="flex flex-col p-8 items-center md:space-y-4 md:w-1/2">
+          <h1 class=" p-1 max-w-md text-lime-800 text-4xl  font-bold text-center">
+            It's a great day for free coffee
+          </h1>
+          <p class=" p-1 font-medium text-2xl text-center text-gray-700">
+            Sign up and start enjoying the perks of Starbucks® Rewards
+          </p>
+          <div class="flex flex-col items-center justify-center">
+            <!-- Button -->
+           <a href="#" class="p-1 font-bold text-sm-5 px-6 border bg-green-900 text-white border-white rounded-full hover:bg-green-800">Join in the app</a>
+            <a href="#" class="p-1 text-2xl font--medium underline hover:no-underline">Or join online</a>
+           </div>
+        </div>
+        <!-- image -->
+       <div class="md:w-1/2">
+        <img src="Starbucks® Rewards – Order Ahead, Endless Extras, Free Coffee_ Starbucks Coffee Company/rewards-hero.png" alt="">
+       </div>
+        </div>
+ </section>
+
+
+ <section id="hero-2">
+    <div class="container-fluid">
+      <div class="items-center">
+        <h2 class="text-4xl text-black mt-10 font-bold text-center">Getting started is easy</h2>
+        <p class="text-2xl font-meduim text-gray-500 m-5 mb-10 text-center">Earn Stars and get rewarded in a few easy steps.</p>
+      </div>
+
+       <div class="flex flex-col justify-evenly mx-auto md:flex-row pb-10 md:text-center">
+      
+        <div class=" mt-10 flex flex-row items-center md:flex-col">
+          <img src="/Starbucks® Rewards – Order Ahead, Endless Extras, Free Coffee_ Starbucks Coffee Company/getting-started-1@2x.jpg" alt="" class="w-22">
+          <div class="max-w-lg ml-4">
+          <h4 class="mt-5 text-2xl font-bold">Create an account</h4>
+          <p class="text-2xl font-medium">To get started, <span class="underline text-green-950 hover:no-underline"><a href="https://www.starbucks.com/account/create">join now.</a></span>  You can also <span class="underline text-green-950 hover:no-underline"><a href="https://starbucks.app.link/VLa2I3inh9">Join in the app </a></span> to get access to the full range of Starbucks® Rewards benefits.</p>
+         </div>
+        </div>
+
+          <div class=" mt-10 flex flex-row items-center md:flex-col">
+          <img src="/Starbucks® Rewards – Order Ahead, Endless Extras, Free Coffee_ Starbucks Coffee Company/getting-started-2@2x.jpg" alt="" class="w-22">
+          <div class="max-w-lg ml-4">
+          <h4 class="mt-5 text-2xl font-bold">Order and pay how you’d like</h4>
+          <p class="text-2xl font-medium">Use cash, credit/debit card or save some time and pay right through the app. You’ll collect Stars all ways. <span class="underline text-green-950 hover:no-underline"><a href="https://www.starbucks.com/rewards#waystopay">Learn how</a></span> .</p>
+         </div>
+        </div>
+
+         <div class=" mt-10 flex flex-row items-center md:flex-col">
+          <img src="/Starbucks® Rewards – Order Ahead, Endless Extras, Free Coffee_ Starbucks Coffee Company/getting-started-3@2x.jpg" alt="" class="w-22">
+          <div class="max-w-lg ml-4">
+          <h4 class="mt-5 text-2xl font-bold">Earn Stars, get Rewards</h4>
+          <p class="text-2xl font-medium"> As you earn Stars, you can redeem them for Rewards—like free food, drinks, and more. Start redeeming with as little as 25 Stars!</p>
+         </div>
+        </div>
+      
+      </div>
+    </div>
+   
+ </section>
+
+
+ <section id="hero-3">
+  <div class=" bg-gray-200 container-fluid">
+    <div class="text-center p-10">
+      <h2 class="text-gray-700 font-bold text-4xl">
+        Get your favourite for free 
+      </h2>
+    </div>
+    <div class=" flex flex-row items-center justify-around mt-5">
+      <span class="m-5 ">25<span id="red" class="">★</span></span>
+
+      <span class="m-5 ">100<span id="red">★</span></span>
+
+      <span class="m-5 ">200<span id="red">★</span></span>
+
+      <span class="m-5 ">300<span id="red">★</span></span>
+
+      <span class="m-5 ">400<span id="red">★</span></span>
+   
+      </div>
+     
+  </div>
+
+ </section>
+
+
+ <section id="hero-4">
+  <div class="container mx-auto mt-10">
+    <div class="text-center">
+      <h2 class="text-black font-bold text-4xl">
+       Endless Extras 
+      </h2>
+      <p class="text-2xl font-medium text-gray-600 m-5 mb-10">Joining Starbucks® Rewards means unlocking access to benefits like quick and easy ordering, tasty Rewards and-yes, free coffee.</p>
+    </div>  
+   <div class="flex flex-col items-center md:flex-row justify-between text-center">
+      <div class="flex ml-5 md:flex-col items-center">
+        <img class="w-40" src="/Starbucks® Rewards – Order Ahead, Endless Extras, Free Coffee_ Starbucks Coffee Company/1-fun-freebies.jpg" />
+        <div class="flex flex-col ml-4">
+          <h4 class="mt-5 text-3xl font-bold">Fun freebies</h4>
+          <p class="mt-5 text-2xl font-medium">Not only can you earn free food, drinks and more, look foward to a birthday treat on us. <span class="">Learn how</a></span></p>
+          </div>
+        </div>
+
+       <div class="flex ml-5 md:flex-col items-center">
+        <img class="w-40" src="/Starbucks® Rewards – Order Ahead, Endless Extras, Free Coffee_ Starbucks Coffee Company/2-order-and-pay-ahead.jpg" />
+        <div class="flex flex-col ml-4">
+          <h4 class="mt-5 text-3xl font-bold">Order & pasy ahead</h4>
+          <p class="mt-5 text-2xl font-medium">Master the art of ordering ahead with saved favourites and payment methods <span class="">Learn how</a></span></p>
+          </div>
+        </div>
+
+         <div class="flex ml-5 md:flex-col items-center">
+        <img class="w-40" src="/Starbucks® Rewards – Order Ahead, Endless Extras, Free Coffee_ Starbucks Coffee Company/3-get-to-free-faster.jpg" />
+        <div class="flex flex-col ml-4">
+          <h4 class="mt-5 text-3xl font-bold">Get to free faster</h4>
+          <p class="mt-5 text-2xl font-medium">Earn Stars even quicker with Bonus Star challenges, Double Star Days and exciting games. <span class="">Learn how</a></span></p>
+          </div>
+        </div>
+   </div>
+     
+  </div>
+ </section>
+
+
+ <section id="hero-5">
+  <div class="container-fluid mx-auto bg-gray-100 mt-13 pb-20 overscroll-x-contain">
+      <div class="text-center pt-14">
+      <h2 class="text-black font-bold text-4xl">
+       Cash or card, you earn Stars</h2>
+      <p class="text-2xl font-medium text-gray-600 m-5 mb-10">No matter how you pay, you can earn Star with your morning coffe. Those Stars add up to (really delicious) Rewards. </p>
+       </div>
+
+       <div class="text-left pl-5">
+        <h1 class="text-4xl tex-black font-bold text-left">1★ per dollar</h1>
+        <p class="text-md">Pay as you go</p>
+      </div>
+
+       <div class="flex flex-col ml-10 justify-evenly mx-auto md:flex-row border-b-2 border-gray-300 pb-10">
+      
+        <div class=" mt-10 flex">
+          <img src="/Starbucks® Rewards – Order Ahead, Endless Extras, Free Coffee_ Starbucks Coffee Company/1A.png" alt="" class="w-40">
+          <div class="max-w-lg ml-4">
+          <h3 class="font-bold text-2xl pb-5">Scan and pay separately</h3>
+          <p class="text-2xl font-medium">Use cash or credit/debit card at the register.</p>
+         </div>
+        </div>
+
+        <div class=" mt-10 flex ">
+          <img src="/Starbucks® Rewards – Order Ahead, Endless Extras, Free Coffee_ Starbucks Coffee Company/1B.png" alt="" class="w-40">
+          <div class="ml-4 max-w-lg">
+          <h3 class="font-bold text-2xl pb-7">Save payment in the app</h3>
+          <p class="text-2xl font-medium ">Check-out faster by saving a credit/debit card or PayPal to your account. You’ll be able to order ahead or scan and pay at the register in one step.</p>
+          </div>
+          
+        </div>
+       </div>
+
+      <div class="text-left pl-5">
+        <h1 class="text-4xl tex-black font-bold  text-left">2★ per dollar</h1>
+        <p class="text-md">Add funds in the app</p>
+      </div>
+
+       <div class="flex flex-col ml-10 justify-evenly mx-auto md:flex-row">
+      
+        <div class=" mt-10 flex">
+          <img src="/Starbucks® Rewards – Order Ahead, Endless Extras, Free Coffee_ Starbucks Coffee Company/2A.png" alt="" class="w-40">
+          <div class="max-w-lg ml-4">
+          <h3 class="font-bold text-2xl pb-5">Preload</h3>
+          <p class="text-2xl font-medium">To save time and earn Stars twice as fast, add money to your digital Starbucks Card using any payment option. Scan and pay in one step or order ahead in the app.</p>
+         </div>
+        </div>
+
+        <div class=" mt-10 flex ">
+          <img src="/Starbucks® Rewards – Order Ahead, Endless Extras, Free Coffee_ Starbucks Coffee Company/2B.png" alt="" class="w-40">
+          <div class="ml-4 max-w-lg">
+          <h3 class="font-bold text-2xl pb-7">Register your gift card</h3>
+          <p class="text-2xl font-medium ">Then use it to pay through the app. You can even consolidate balances from multiple cards in one place.</p>
+          </div>
+          
+        </div>
+       </div>
+  </div>
+ </section>
+
+
+ <section id="hero-6">
+ 
+  <div class="bg-[url(/images/500.png)] bg-contain p-10">
+<div class="contanier bg-teal-200 mx-auto m-10 pb-6">
+        <div class="text-center pt-10 mb-10">
+    <h2 class="text-4xl font-bold">Keep the Rewards Coming</h2>
+    <p class="text-2xl font-medium max-w-xl mx-auto text-gray-900 pt-8">
+      The Rewards don't stop at your morning coffee. Join Starbucks® Rewards and unlock perks from our partners, all while earning more Stars.
+    </p>
+        </div>
+   
+       <div class="flex flex-col justify-evenly mx-auto md:flex-row pb-10 md:text-center">
+      
+        <div class=" mt-10 flex flex-row items-center md:flex-col">
+          <img src="/Starbucks® Rewards – Order Ahead, Endless Extras, Free Coffee_ Starbucks Coffee Company/delta-skymiles.png" alt="" class="w-40">
+          <div class="max-w-lg ml-4">
+          <p class="text-2xl font-medium"><span class="text-green-500 underline hover:no-underline"><a href="https://www.deltastarbucks.com/content/starbucks/en/overview.html?mkcpgn=dipd-sbux7042">Link your Delta SkyMiles®</a></span>
+            and Starbucks® Rewards accounts to earn miles on Starbucks Card reloads of $25 or more, plus Double Stars on travel days.<span id="1" class="text-sm uppercase ">1</span></p>
+         </div>
+        </div>
+
+        <div class=" mt-10 flex flex-row items-center md:flex-col ">
+          <img src="/Starbucks® Rewards – Order Ahead, Endless Extras, Free Coffee_ Starbucks Coffee Company/bank-of-america.png" alt="" class="w-40">
+          <div class="ml-4 max-w-lg">
+          <p class="text-2xl font-medium "> <span class="text-green-500 underline hover:no-underline"><a href="https://promotions.bankofamerica.com/starbucks?cm_mmc=ESZ-EnterpriseSales-_-Cobrand_Site-_-ES35LT0004_StarbucksRewardsModuleBofA_SRModuleBofA-_-StarbucksPartnerMktg">Link your Bank of American®</a></span> eligible card and Starbucks® Rewards account to earn 2% Cash Back and Bonus Stars on qualifying Starbucks in-app purchases.<span id="2" class="text-sm uppercase ">2</span></p>
+          </div>
+        </div>
+
+         <div class=" mt-10 flex flex-row items-center md:flex-col">
+          <img src="/Starbucks® Rewards – Order Ahead, Endless Extras, Free Coffee_ Starbucks Coffee Company/marriott-logo.png" alt="" class="w-40">
+          <div class="ml-4 max-w-lg">
+          <p class="text-2xl font-medium "><span class="text-green-500 underline hover:no-underline"><a href="https://www.starbucks.com/rewards/partnerships/marriottbonvoy">Link your Marriott Bonvoy®</a></span> and Starbucks® Rewards accounts to earn Double Stars during eligible stays, points during any Marriott Bonvoy Week and more.<span id="3" class="text-sm uppercase ">3</span></p>
+          </div>
+        </div>
+       </div>
+
+      <div class="text-center mt-15">
+          <!-- Button -->
+           <a href="#" class="p-2 font-bold text-2xl px-7 border-0 bg-green-900 text-white rounded-full hover:bg-green-800">Join Starbucks® Rewards</a>
+      </div>
+</div>
+  </div> 
+ </section>
+
+
+<section id="hero-7">
+  <div class="container m-20 text-center mx-auto">
+    <h2 class="text-4xl text-left pb-7 font-bold">
+      Questios?
+    </h2>
+    <p class="text-2xl text-left font-medium max-w-xl ml-3">
+      We want to help in any way we can. You can ask your barista anytime or we’ve answered the most commonly asked terms right over here. </p>
+  </div>
+</section>
+
+
+<!-- QUestions -->
+
+<article id="hero-8">
+  <div class="grid grid-cols-4 justify-center space-x-3 bg-gray-200">
+
+   <div class="col-span-4 pl-8 mt-5 text-left">
+    <h5 class="text-2xl font-bold text-gray-400 pb-5">At participating stores. Restrictions apply.</h5>
+    <p class="text-gray-800 text-2xl font-medium" data-bs-target="#1" id="1"> 1Excludes taxes and gratuities. At participating stores. Some restrictions apply. Flights purchased close to departure may not earn double Stars. Stars and miles may not be earned on purchases of alcohol,   Starbucks Cards and Starbucks Card reloads. For details, visit deltastarbucks.com/terms. ↩</p>
+    <br>
+    <p class="text-gray-800 text-2xl font-medium pb-5" data-bs-target="#2" id="2">  2At participating stores only. Some restrictions apply. Linked Card members will earn 2% Cash Back on the full purchase price of every Qualifying Purchase. Extra Star offer excludes taxes and tips. Stars may not be earned on purchases of alcohol or on reloads of Starbucks Cards that are not registered. For details, visit Terms and Conditions. Bank of America, N.A. Member FDIC. ↩</p>
+    <br>
+    <p class="text-gray-800 text-2xl font-medium pb-10" data-bs-target="#3" id="3"> 3Individuals must link loyalty program accounts to participate in offer. Members with linked accounts will earn: (a) double Starbucks Rewards Stars on Qualifying Starbucks Transactions during Eligible Stays at Participating Marriott Bonvoy Hotels, excluding stays at Homes & Villas by Marriott Bonvoy and The Ritz-Carlton Yacht Collection, and (b) earn 100 Marriott Bonvoy Points upon completion of 3 Qualifying Starbucks Transactions during Marriott Bonvoy Week. Qualifying Starbucks Transactions must be made at U.S. participating Starbucks stores and exclude purchases of alcoholic beverages, Starbucks Card eGifts and physical Starbucks gift. To earn Double Stars, the applicable stay must qualify as an Eligible Stay at a Participating Marriott Bonvoy® Hotel under offer terms and conditions. Other restrictions and exclusions apply. For full offer terms and conditions, visit Starbucks.com/MarriottBonvoy. Marriott Bonvoy® and its affiliated brands and hotels are the registered trademarks and/or service marks of Marriott International, Inc. and its affiliates. Used under license from Marriott International, Inc. ↩</p>
+   </div>
+
+
+   <div class="col-start-1 col-end-3 pl-10">
+    <div class="mb-3 text-left">
+    <h5 class="text-2xl font-bold text-gray-400 mb-3 uppercase">Earning Stars</h5>
+    <p class="text-gray-800 text-2xl font-medium pb-5">Stars cannot be earned on purchases of alcohol, Starbucks Cards or Starbucks Card reloads.</p>
+    <p class="text-gray-800 text-2xl font-medium pb-5">Earn 1 Star per $1 spent when you scan your member barcode in the app, then pay with cash, credit/debit cards or mobile wallets at participating stores. You can also earn 1 Star per $1 spent when you link a payment method and pay directly through the app.</p>
+    <p class="text-gray-800 text-2xl font-medium pb-5">Earn 2 Stars per $1 spent when you load funds and pay with your digital Starbucks Card in the app. You can also earn 2 Stars per $1 spent when you pay in-person at a participating store with your registered physical Starbucks Card or scan your member barcode in the app, and then use any physical Starbucks Card (regardless of whether it is registered) to complete the purchase.</p>
+   </div>
+
+    <div class="mb-3 text-left">
+    <h5 class="text-2xl font-bold text-gray-400 mb-3 uppercase">benefits</h5>
+    <p class="text-gray-800 text-2xl font-medium pb-5">Free refills available during same in-store visit only. To qualify for the Birthday Reward, you must have made at least one Star-earning transaction.</p>
+   </div>
+   </div>
+
+
+    <div class="col-span-2 pl-10">
+    <div class="mb-3 text-left">
+    <h5 class="text-2xl font-bold text-gray-400 mb-3 uppercase">Terms of Use</h5>
+    <p class="text-gray-800 text-2xl font-medium pb-5">For full program details visit <a class="text-green-800 underline hover:no-underline" href="https://www.starbucks.com/rewards/terms/">starbucks.com/rewards/terms</a>
+.</p>
+    <p class="text-gray-800 text-2xl font-medium pb-5">Starbucks® Rewards benefits are available at participating Starbucks stores. Not all stores have the ability to honor Rewards at this time. Visit the <a class="text-green-800 underline hover:no-underline" href="https://www.starbucks.com/store-locator">Starbucks Store Locator</a>  and search for locations honoring “Redeem Rewards”.</p>
+   </div>
+
+    <div class="mb-3 text-left">
+    <h5 class="text-2xl font-bold text-gray-400 mb-3 uppercase">Redeeming Rewards</h5>
+    <p class="text-gray-800 text-2xl font-medium">Rewards cannot be redeemed for alcoholic beverages or multi-serve items. You pay the difference for any beverage customization over $1 and/or merchandise item over $20. Not all stores honor tiered Rewards. Select stores redeem 200 Stars for free food or drink items only.</p>
+   </div>
+   </div>
+   
+  </div>
+</article>
+
+
+
+  <section id="Question" class="border-t-2 border-gray-200 mt-15 mb-6">
+<div class="container justify-center lg:block text-center hidden">
+  
+  <div class="flex flex-row justify-evenly place-content-center m-20 space-x-10 border-b-2 ml-10 mb-10 border-gray-200 ">
+
+    <div class="heading text-left"> 
+      <h1 class="text-3xl font-meduim text-gray-900 pb-5">About Us</h1>
+      <div class="flex">
+        <ul class="list-none text-gray-400 space-y-5">
+      <li>
+       <a href="#">Our Copany</a>
+      </li>
+
+      <li>
+       <a href="#">Our Coffee</a>
+      </li>
+
+      <li>
+       <a href="#">About Starbucks</a>
+      </li>
+
+      <li>
+       <a href="#">Starbucks Archive</a>
+      </li>
+
+      <li>
+       <a href="#">Starbucks Archive</a>
+      </li>
+
+      <li>
+        <a href="#">Investor Relations</a>
+      </li>
+
+      <li>
+        <a href="#">Costumer Service </a>
+      </li>
+
+      <li>
+        <a href="#">Contact Us</a>
+      </li>
+
+        </ul>
+      </div>
+    </div>
+    
+    <div class="heading text-left"> 
+      <h1 class="text-3xl font-meduim text-gray-900 pb-5">Careers </h1>
+      <div class="flex">
+        <ul class="list-none text-gray-400 space-y-5">
+      <li>
+       <a href="#">Culture and Values</a>
+      </li>
+
+      <li>
+       <a href="#">Belonging at Starbucks</a>
+      </li>
+
+      <li>
+       <a href="#">College Achievement Plan</a>
+      </li>
+
+      <li>
+       <a href="#">Alumni Community</a>
+      </li>
+
+      <li>
+       <a href="#">U.s Careers</a>
+      </li>
+
+      <li>
+        <a href="#">Investor Relations</a>
+      </li>
+
+      <li>
+        <a href="#">International Careers</a>
+      </li>
+
+        </ul>
+      </div>
+    </div>
+
+    <div class="heading text-left"> 
+      <h1 class="text-3xl font-meduim text-gray-900 pb-5">Social Impact </h1>
+      <div class="flex">
+        <ul class="list-none text-gray-400 space-y-5">
+      <li>
+       <a href="#">Community</a>
+      </li>
+
+      <li>
+       <a href="#">Starbucks Foundation</a>
+      </li>
+
+      <li>
+       <a href="#">Sustainability</a>
+      </li>
+
+      <li>
+       <a href="#">Environmental and Social Impact Reporting</a>
+      </li>
+
+       </ul>
+      </div>
+    </div>
+
+     <div class="heading text-left "> 
+      <h1 class="text-3xl font-meduim text-gray-900 pb-5">For Business Partners</h1>
+      <div class="flex">
+        <ul class="list-none text-gray-400 space-y-5">
+      <li>
+       <a href="#">Landlord Support Center</a>
+      </li>
+
+      <li>
+       <a href="#">Suppliers </a>
+      </li>
+
+      <li>
+       <a href="#">Corporate Gift Card Sales</a>
+      </li>
+
+      <li>
+       <a href="#">Office and Foodservice Coffee</a>
+      </li>
+
+       </ul>
+      </div>
+    </div>
+
+    <div class="heading text-left"> 
+      <h1 class="text-3xl font-meduim text-gray-900 pb-5">Order and Pick Up</h1>
+      <div class="flex">
+        <ul class="list-none text-gray-400 space-y-5">
+      <li>
+       <a href="#">Order on the App</a>
+      </li>
+
+      <li>
+       <a href="#">Order on the Web</a>
+      </li>
+
+      <li>
+       <a href="#">Delivery</a>
+      </li>
+
+      <li>
+       <a href="#">Order and Pick Up Option</a>
+      </li>
+
+      <li>
+       <a href="#">Explore and Find Coffee for Home</a>
+      </li>
+
+       </ul>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+
+<div id="accordion-color" data-accordion="collapse" class="container-fluid active lg:hidden md:visible  bg-white mb-10">
+  <h2 id="accordion-color-heading-1" class="text-gray-900">
+    <button type="button" class="flex items-center justify-between w-full p-5 font-medium gap-3" data-accordion-target="#body-1">
+      <span class="text-gray-800 text-2xl font-semibold">About Us</span>
+
+   
+   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inactiveicon">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+      </svg>
+      
+        
+      
+    </button>
+  </h2>
+  <div id="body-1" class="md:hidden hidden text-2xl">
+    <div class="p-5">
+      <ul class="list-none text-gray-700 text-lg">
+        <li class="pb-7"><a href="#">Our Company</a></li>
+        <li class="pb-7"><a href="#">Our Coffee</a></li>
+        <li class="pb-7"><a href="#">About Starbucks</a></li>
+        <li class="pb-7"><a href="#">StarBucks Archive</a></li>
+        <li class="pb-7"><a href="#">Investor Relations</a></li>
+        <li class="pb-7"><a href="#">Customer Service</a></li>
+        <li class="pb-7"><a href="#">Contact Us</a></li>  
+      </ul>
+  </div>
+  </div>
+
+  <h2 id="accordion-color-heading-2" class="text-gray-900">
+    <button type="button" class="flex items-center text-2xl justify-between w-full p-5 font-medium" data-accordion-target="#body-2">
+      <span class="text-gray-800 font-semibold ">Careers</span>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+      </svg>
+    </button>
+  </h2>
+  <div id="body-2" class="md:hidden hidden text-2xl">
+    <div class="p-5">
+      <ul class="list-none text-gray-700 text-lg">
+        <li class="pb-7"><a href="#">Culture and Values </a></li>
+        <li class="pb-7"><a href="#">Belonging at starbucks</a></li>
+        <li class="pb-7"><a href="#">College Achievement Plan </a></li>
+        <li class="pb-7"><a href="#">Alumni Community</a></li>
+        <li class="pb-7"><a href="#">U.S Careers</a></li>
+        <li class="pb-7"><a href="#">International Careers</a></li> 
+      </ul>
+    </div>
+  </div>
+
+  <h2 id="accordion-color-heading-3" class="text-gray-900">
+    <button type="button" class="flex items-center text-2xl justify-between w-full p-5 font-medium" data-accordion-target="#body-3">
+      <span class="text-gray-800 font-semibold ">Social Impact</span>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+      </svg>
+    </button>
+  </h2>
+  <div id="body-3" class="md:hidden hidden text-2xl">
+    <div class="p-5">
+      <ul class="list-none text-gray-700 text-lg">
+        <li class="pb-7"><a href="#">Communities</a></li>
+        <li class="pb-7"><a href="#">Starbucks Foundation</a></li>
+        <li class="pb-7"><a href="#">Sustainability</a></li>
+        <li class="pb-7"><a href="#">Environmental and Social Impact Reporting </a></li>
+       
+      </ul>
+    </div>
+  </div>
+
+  <h2 id="accordion-color-heading-4" class="text-gray-900">
+    <button type="button" class="flex items-center text-2xl justify-between w-full p-5 font-medium" data-accordion-target="#body-4">
+      <span class="text-gray-800 font-semibold ">For Business Partners</span>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+      </svg>
+    </button>
+  </h2>
+  <div id="body-4" class="md:hidden hidden text-2xl">
+    <div class="p-5">
+      <ul class="list-none text-gray-700 text-lg">
+        <li class="pb-7"><a href="#">Landlord Support Center</a></li>
+        <li class="pb-7"><a href="#">Suppliers</a></li>
+        <li class="pb-7"><a href="#">Corporate Gift Card Sales</a></li>
+        <li class="pb-7"><a href="#">Office and Foodservice Coffee</a></li>       
+      </ul>
+    </div>
+  </div>
+
+   <h2 id="accordion-color-heading-5" class="text-gray-900">
+    <button type="button" class="flex items-center text-2xl justify-between w-full p-5 font-medium" data-accordion-target="#body-5">
+      <span class="text-gray-800 font-semibold ">Order and Pick Up</span>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+      </svg>
+    </button>
+  </h2>
+  <div id="body-5" class="md:hidden hidden text-2xl">
+    <div class="p-5">
+      <ul class="list-none text-gray-700 text-lg">
+        <li class="pb-7"><a href="#">Landlord Support Center</a></li>
+        <li class="pb-7"><a href="#">Suppliers</a></li>
+        <li class="pb-7"><a href="#">Corporate Gift Card Sales</a></li>
+        <li class="pb-7"><a href="#">Office and Foodservice Coffee</a></li>       
+      </ul>
+    </div>
+  </div>
+  </div>
+</section>
+   
+
+<footer>
+  <!-- Flex Container -->
+<div class="pt-7">
+<!-- Logo and Social Container -->
+ 
+
+   <!-- Social Links Container -->
+    <div class="flex container mx-5 space-x-4">
+      <!-- Link 1 -->
+      <a href="#">
+        <img src="images/iconmonstr-spotify-1.png" class="h-8 bg-black rounded-full"  alt="">
+       </a>
+       
+        <!-- Link 2 -->
+        <a href="#">
+          <img src="images/download (1).png" class="h-8 bg-black rounded-full"  alt="">
+         </a>
+       
+          <!-- Link 3 -->
+          <a href="#">
+            <img src="images/images (1).png" class="h-8 rounded-full bg-black"  alt="">
+           </a>
+
+        <!-- Link 4 -->
+        <a href="#">
+          <img src="images/download (3).png" class="h-8 bg-black rounded-full "  alt="">
+         </a>
+      
+          <!-- Link 5 -->
+          <a href="#">
+            <img src="images/download (4).png" class="h-8 bg-black rounded-full"  alt="">
+           </a>
+       
+       <!-- Link 6 -->
+       <a href="#">
+        <img src="images/images.png" class="h-8 bg-black mb-6 rounded-full "  alt="">
+       </a>
+      
+      
+     
+    </div>
+
+    <div class="mt-3 mx-5 text-gray-800">
+      <div class="flex flex-col space-y-3 text-black">
+      <ul class="list-none  text-lg font-semibold">
+        <li class="pb-5"><a href="#">Privacy Notice</a></li>
+        <li class="pb-5"><a href="#">Consumer Health Privacy Notice</a></li>
+        <li class="pb-5"><a href="#">Terms of Use</a></li>
+        <li class="pb-5"><a href="#">Do Not Share My Personal Information</a></li>
+        <li class="pb-5"><a href="#">CA Supply Chain Act</a></li>
+        <li class="pb-5"><a href="#">Accessibility</a></li>
+        <li class="pb-5"><a href="#">Cookie Preferences</a></li>
+      </ul>
+      </div>
+      <div class="mb-6 text-left text-black">
+        &copy; 2025 Starbucks Coffee Company. All Rights Reserved. 
+      </div>
+     </div>
+ </div>   
+</footer>
+
+</div>
+
+<!-- npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch -->
+<script src="src/js.js"></script>
+</body>
+</html>
