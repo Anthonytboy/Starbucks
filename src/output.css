@@ -563,6 +563,9 @@
   .overflow-x-clip {
     overflow-x: clip;
   }
+  .overflow-x-visible {
+    overflow-x: visible;
+  }
   .overscroll-x-contain {
     overscroll-behavior-x: contain;
   }
@@ -732,6 +735,9 @@
   }
   .pt-14 {
     padding-top: calc(var(--spacing) * 14);
+  }
+  .pr-3 {
+    padding-right: calc(var(--spacing) * 3);
   }
   .pr-9 {
     padding-right: calc(var(--spacing) * 9);
