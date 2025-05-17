@@ -383,6 +383,9 @@
   .ml-10 {
     margin-left: calc(var(--spacing) * 10);
   }
+  .ml-12 {
+    margin-left: calc(var(--spacing) * 12);
+  }
   .ml-15 {
     margin-left: calc(var(--spacing) * 15);
   }
@@ -887,11 +890,17 @@
   .pl-5 {
     padding-left: calc(var(--spacing) * 5);
   }
+  .pl-6 {
+    padding-left: calc(var(--spacing) * 6);
+  }
   .pl-7 {
     padding-left: calc(var(--spacing) * 7);
   }
   .pl-8 {
     padding-left: calc(var(--spacing) * 8);
+  }
+  .pl-9 {
+    padding-left: calc(var(--spacing) * 9);
   }
   .pl-10 {
     padding-left: calc(var(--spacing) * 10);
@@ -899,8 +908,14 @@
   .pl-12 {
     padding-left: calc(var(--spacing) * 12);
   }
+  .pl-13 {
+    padding-left: calc(var(--spacing) * 13);
+  }
   .pl-15 {
     padding-left: calc(var(--spacing) * 15);
+  }
+  .pl-17 {
+    padding-left: calc(var(--spacing) * 17);
   }
   .pl-18 {
     padding-left: calc(var(--spacing) * 18);
